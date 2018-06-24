@@ -27,6 +27,6 @@ class Scraper
       #profile quote '.profile-quote'
       #bio
   end
-
+end
 end
 
