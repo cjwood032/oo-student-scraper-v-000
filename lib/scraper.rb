@@ -56,7 +56,6 @@ class Scraper
         student[:blog] = link	# set up the blog
         
 		end #end the links if/else
-	end #end the scrape_profile 
         end # end the each do links
 	
 	
