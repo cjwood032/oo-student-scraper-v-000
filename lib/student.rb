@@ -28,5 +28,3 @@ class Student
     @@all
   end#end the self all
 end #end the student class
-
-end
