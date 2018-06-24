@@ -28,8 +28,8 @@ class Scraper
     student={} #set up a student hash
     
     #student's bio
-    if profile_page.css('.bio-content.content holder div.description-holder') !=nil
-    	student[:bio] = profile_page.css('.bio-content.content holder div.description-holder').text
+    if profile_page.css('div.bio-content.content holder div.description-holder p') !=nil
+    	student[:bio] = profile_page.css('div.bio-content.content-holder div.description-holder p').text
     end #if the student has a bio, get it
     
     #student's quote
